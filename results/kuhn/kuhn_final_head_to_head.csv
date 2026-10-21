@@ -1,0 +1,65 @@
+agent,opponent,balanced_exact_ev
+Nash,Nash,0.0
+Nash,CFR,2.4884259259255748e-05
+Nash,CFR+,1.0412065556963945e-08
+Nash,Q-learning Random,0.027777777777777762
+Nash,Q-learning Mixed,0.027777777777777762
+Nash,DQN Random Huber,0.027777777777777762
+Nash,DQN Mixed Huber,0.027777777777777804
+Nash,DQN Mixed MSE,0.027777777777777762
+CFR,Nash,-2.4884259259255748e-05
+CFR,CFR,0.0
+CFR,CFR+,-3.2172977016561854e-05
+CFR,Q-learning Random,0.06261718846857679
+CFR,Q-learning Mixed,0.06261718846857679
+CFR,DQN Random Huber,0.06261718846857679
+CFR,DQN Mixed Huber,0.06387417789250778
+CFR,DQN Mixed MSE,0.06261718846857679
+CFR+,Nash,-1.0412065556963945e-08
+CFR+,CFR,3.2172977016561854e-05
+CFR+,CFR+,0.0
+CFR+,Q-learning Random,0.055478976269422525
+CFR+,Q-learning Mixed,0.055478976269422525
+CFR+,DQN Random Huber,0.055478976269422525
+CFR+,DQN Mixed Huber,0.0554821919377816
+CFR+,DQN Mixed MSE,0.055478976269422525
+Q-learning Random,Nash,-0.027777777777777762
+Q-learning Random,CFR,-0.06261718846857679
+Q-learning Random,CFR+,-0.055478976269422525
+Q-learning Random,Q-learning Random,0.0
+Q-learning Random,Q-learning Mixed,0.0
+Q-learning Random,DQN Random Huber,0.0
+Q-learning Random,DQN Mixed Huber,0.08333333333333331
+Q-learning Random,DQN Mixed MSE,0.0
+Q-learning Mixed,Nash,-0.027777777777777762
+Q-learning Mixed,CFR,-0.06261718846857679
+Q-learning Mixed,CFR+,-0.055478976269422525
+Q-learning Mixed,Q-learning Random,0.0
+Q-learning Mixed,Q-learning Mixed,0.0
+Q-learning Mixed,DQN Random Huber,0.0
+Q-learning Mixed,DQN Mixed Huber,0.08333333333333331
+Q-learning Mixed,DQN Mixed MSE,0.0
+DQN Random Huber,Nash,-0.027777777777777762
+DQN Random Huber,CFR,-0.06261718846857679
+DQN Random Huber,CFR+,-0.055478976269422525
+DQN Random Huber,Q-learning Random,0.0
+DQN Random Huber,Q-learning Mixed,0.0
+DQN Random Huber,DQN Random Huber,0.0
+DQN Random Huber,DQN Mixed Huber,0.08333333333333331
+DQN Random Huber,DQN Mixed MSE,0.0
+DQN Mixed Huber,Nash,-0.027777777777777804
+DQN Mixed Huber,CFR,-0.06387417789250778
+DQN Mixed Huber,CFR+,-0.0554821919377816
+DQN Mixed Huber,Q-learning Random,-0.08333333333333331
+DQN Mixed Huber,Q-learning Mixed,-0.08333333333333331
+DQN Mixed Huber,DQN Random Huber,-0.08333333333333331
+DQN Mixed Huber,DQN Mixed Huber,0.0
+DQN Mixed Huber,DQN Mixed MSE,-0.08333333333333331
+DQN Mixed MSE,Nash,-0.027777777777777762
+DQN Mixed MSE,CFR,-0.06261718846857679
+DQN Mixed MSE,CFR+,-0.055478976269422525
+DQN Mixed MSE,Q-learning Random,0.0
+DQN Mixed MSE,Q-learning Mixed,0.0
+DQN Mixed MSE,DQN Random Huber,0.0
+DQN Mixed MSE,DQN Mixed Huber,0.08333333333333331
+DQN Mixed MSE,DQN Mixed MSE,0.0

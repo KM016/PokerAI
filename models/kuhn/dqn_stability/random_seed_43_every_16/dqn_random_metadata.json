@@ -1,0 +1,45 @@
+{
+    "algorithm": "dqn",
+    "game": "kuhn",
+    "training_opponent": "Random",
+    "training_hands": 100000,
+    "checkpoints": [
+        100,
+        200,
+        500,
+        1000,
+        2000,
+        5000,
+        10000,
+        20000,
+        50000,
+        100000
+    ],
+    "seed": 43,
+    "network_architecture": [
+        7,
+        32,
+        32,
+        2
+    ],
+    "learning_rate": 0.001,
+    "epsilon": 0.1,
+    "gamma": 1.0,
+    "batch_size": 32,
+    "replay_capacity": 10000,
+    "target_update": 100,
+    "learn_every": 16,
+    "learning_updates": 6249,
+    "training_seconds": 6.3467681660549715,
+    "evaluation": {
+        "hands": 100000,
+        "ev_vs_passive": 0.6666666666666666,
+        "ev_vs_random": 0.375,
+        "ev_vs_nash": -0.027777777777777762,
+        "exploitability": 0.25,
+        "visited_info_sets": 12,
+        "learning_updates": 6249,
+        "replay_size": 10000,
+        "training_seconds": 6.3467681660549715
+    }
+}

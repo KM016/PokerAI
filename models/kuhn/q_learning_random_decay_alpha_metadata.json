@@ -1,0 +1,34 @@
+{
+    "algorithm": "tabular_q_learning",
+    "game": "kuhn",
+    "training_opponent": "Random",
+    "schedule": "Decay alpha",
+    "training_hands": 100000,
+    "checkpoints": [
+        100,
+        200,
+        500,
+        1000,
+        2000,
+        5000,
+        10000,
+        20000,
+        50000,
+        100000
+    ],
+    "seed": 101,
+    "initial_alpha": 0.1,
+    "final_alpha": 0.01,
+    "initial_epsilon": 0.1,
+    "final_epsilon": 0.1,
+    "gamma": 1.0,
+    "training_seconds": 0.6252165859623346,
+    "evaluation": {
+        "hands": 100000,
+        "ev_vs_passive": 0.9999999999999999,
+        "ev_vs_random": 0.4583333333333333,
+        "ev_vs_nash": -0.027777777777777762,
+        "exploitability": 0.3333333333333333,
+        "visited_info_sets": 12
+    }
+}
