@@ -19,7 +19,8 @@ class DQNAgent:
         replay_capacity=10_000,
         target_update=100,
         seed=None,
-        loss="huber"
+        loss="huber",
+        game="kuhn"
     ):
         if learning_rate <= 0:
             raise ValueError("learning_rate must be positive")

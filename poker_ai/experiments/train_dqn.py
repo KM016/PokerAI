@@ -106,7 +106,8 @@ def run_experiment(
     learn_every=16,
     model_dir="models/kuhn",
     output_dir="results/kuhn",
-    loss="huber"
+    loss="huber",
+    game="kuhn"
 ):
     checkpoints = tuple(checkpoints)
     if not checkpoints or checkpoints != tuple(sorted(set(checkpoints))):
