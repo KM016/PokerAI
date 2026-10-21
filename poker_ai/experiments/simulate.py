@@ -1,8 +1,9 @@
-
 import random
 
 from poker_ai.games.kuhn import KuhnPoker
 from poker_ai.agents.nash_agent import NashAgent
+
+# make nash agents play many hands and compare average provit againnst EV0 = -1/18
 
 # monte carlo estimate of player 0's average earnings
 def simulate(n_hands=100_000, seed=42):

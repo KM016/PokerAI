@@ -1,4 +1,3 @@
-
 import random
 
 # creates an instance of a player who follows the nash equilibrium strategy 
