@@ -6,23 +6,44 @@ from poker_ai.games.kuhn import KuhnPoker
 
 
 # loads the selected opponent using either its name or menu number
+
+# loads any of our saved poker strategies using its name or menu number
 def make_opponent(selection):
-    choices = {
-        "1": "nash", "nash": "nash",
-        "2": "cfr", "cfr": "cfr",
-        "3": "cfr_plus", "cfr+": "cfr_plus", "cfr_plus": "cfr_plus"
+    models = {
+        "2": "cfr",
+        "cfr": "cfr",
+        "3": "cfr_plus",
+        "cfr+": "cfr_plus",
+        "cfr_plus": "cfr_plus",
+        "4": "q_learning_random_decay_alpha",
+        "q_learning_random": "q_learning_random_decay_alpha",
+        "5": "q_learning_mixed_decay_alpha",
+        "q_learning_mixed": "q_learning_mixed_decay_alpha",
+        "6": "dqn_random",
+        "dqn_random": "dqn_random",
+        "7": "dqn_mixed",
+        "dqn_mixed": "dqn_mixed",
+        "8": "dqn_mixed_mse",
+        "dqn_mixed_mse": "dqn_mixed_mse",
+        "dqn": "dqn_mixed_mse"
     }
-    name = choices.get(selection.strip().lower())
 
-    if name is None:
-        raise ValueError("Invalid opponent. Choose Nash, CFR or CFR+.")
+    selection = selection.strip().lower()
 
-    if name == "nash":
+    # nash is built into the project so no saved file is needed
+    if selection in ("1", "nash"):
         return NashAgent()
 
-    # reuse the saved strategy instead of training a new agent
-    strategy = load_strategy(f"models/kuhn/{name}.json")
+    if selection not in models:
+        raise ValueError("Invalid opponent selection")
+
+    # q learning and dqn use their saved greedy strategies for gameplay
+    # the network weights and q tables are not needed for inference here
+    filename = models[selection] + ".json"
+    strategy = load_strategy(f"models/kuhn/{filename}")
+
     return StrategyAgent(strategy)
+
 
 
 # accepts either the number or name of a legal action
@@ -80,9 +101,15 @@ def play_hand(agent, human_player):
 
 def main():
     print("\nChoose an opponent:")
-    print("1. Nash")
+    print("1. Nash Equilibrium")
     print("2. CFR")
     print("3. CFR+")
+    print("4. Q-learning (Random)")
+    print("5. Q-learning (Mixed)")
+    print("6. DQN (Random, Huber)")
+    print("7. DQN (Mixed, Huber)")
+    print("8. DQN (Mixed, MSE)")
+
 
     try:
         agent = make_opponent(input("Selection: "))
