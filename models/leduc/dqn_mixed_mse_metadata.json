@@ -1,0 +1,47 @@
+{
+    "algorithm": "dqn",
+    "game": "leduc",
+    "training_opponent": "Mixed",
+    "training_hands": 100000,
+    "checkpoints": [
+        100,
+        200,
+        500,
+        1000,
+        2000,
+        5000,
+        10000,
+        20000,
+        50000,
+        100000
+    ],
+    "seed": 101,
+    "network_architecture": [
+        55,
+        32,
+        32,
+        5
+    ],
+    "learning_rate": 0.001,
+    "loss": "mse",
+    "epsilon": 0.1,
+    "gamma": 1.0,
+    "batch_size": 32,
+    "replay_capacity": 10000,
+    "target_update": 100,
+    "learn_every": 16,
+    "learning_updates": 6249,
+    "training_seconds": 23.51020945800701,
+    "evaluation": {
+        "hands": 100000,
+        "ev_vs_passive": 0.8833333333333333,
+        "ev_vs_random": 2.0185185185185186,
+        "ev_vs_cfr_plus": -0.43786950967896565,
+        "ev_vs_mixed": 0.8213274473909621,
+        "exploitability": 2.7666666666666666,
+        "visited_info_sets": 288,
+        "learning_updates": 6249,
+        "replay_size": 10000,
+        "training_seconds": 23.51020945800701
+    }
+}

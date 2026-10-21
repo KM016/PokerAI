@@ -1,0 +1,1250 @@
+{
+    "J|-|": {
+        "check": 1.0,
+        "bet": 0.0
+    },
+    "J|-|b": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "J|-|br": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "J|-|c": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "J|-|cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "J|-|cbr": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "J|J|bk/": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "J|J|bk/b": {
+        "call": 1.0,
+        "fold": 0.0,
+        "raise": 0.0
+    },
+    "J|J|bk/br": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "J|J|bk/c": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "J|J|bk/cb": {
+        "call": 1.0,
+        "fold": 0.0,
+        "raise": 0.0
+    },
+    "J|J|bk/cbr": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "J|J|brk/": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "J|J|brk/b": {
+        "call": 1.0,
+        "fold": 0.0,
+        "raise": 0.0
+    },
+    "J|J|brk/br": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "J|J|brk/c": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "J|J|brk/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "J|J|brk/cbr": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "J|J|cbk/": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "J|J|cbk/b": {
+        "call": 1.0,
+        "fold": 0.0,
+        "raise": 0.0
+    },
+    "J|J|cbk/br": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "J|J|cbk/c": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "J|J|cbk/cb": {
+        "call": 1.0,
+        "fold": 0.0,
+        "raise": 0.0
+    },
+    "J|J|cbk/cbr": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "J|J|cbrk/": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "J|J|cbrk/b": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "J|J|cbrk/br": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "J|J|cbrk/c": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "J|J|cbrk/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "J|J|cbrk/cbr": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "J|J|cc/": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "J|J|cc/b": {
+        "call": 1.0,
+        "fold": 0.0,
+        "raise": 0.0
+    },
+    "J|J|cc/br": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "J|J|cc/c": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "J|J|cc/cb": {
+        "call": 1.0,
+        "fold": 0.0,
+        "raise": 0.0
+    },
+    "J|J|cc/cbr": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "J|K|bk/": {
+        "check": 1.0,
+        "bet": 0.0
+    },
+    "J|K|bk/b": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "J|K|bk/br": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "J|K|bk/c": {
+        "check": 1.0,
+        "bet": 0.0
+    },
+    "J|K|bk/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "J|K|bk/cbr": {
+        "call": 0.0,
+        "fold": 1.0
+    },
+    "J|K|brk/": {
+        "check": 1.0,
+        "bet": 0.0
+    },
+    "J|K|brk/b": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "J|K|brk/br": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "J|K|brk/c": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "J|K|brk/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "J|K|brk/cbr": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "J|K|cbk/": {
+        "check": 1.0,
+        "bet": 0.0
+    },
+    "J|K|cbk/b": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "J|K|cbk/br": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "J|K|cbk/c": {
+        "check": 1.0,
+        "bet": 0.0
+    },
+    "J|K|cbk/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "J|K|cbk/cbr": {
+        "call": 0.0,
+        "fold": 1.0
+    },
+    "J|K|cbrk/": {
+        "check": 1.0,
+        "bet": 0.0
+    },
+    "J|K|cbrk/b": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "J|K|cbrk/br": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "J|K|cbrk/c": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "J|K|cbrk/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "J|K|cbrk/cbr": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "J|K|cc/": {
+        "check": 1.0,
+        "bet": 0.0
+    },
+    "J|K|cc/b": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "J|K|cc/br": {
+        "call": 0.0,
+        "fold": 1.0
+    },
+    "J|K|cc/c": {
+        "check": 1.0,
+        "bet": 0.0
+    },
+    "J|K|cc/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "J|K|cc/cbr": {
+        "call": 0.0,
+        "fold": 1.0
+    },
+    "J|Q|bk/": {
+        "check": 1.0,
+        "bet": 0.0
+    },
+    "J|Q|bk/b": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "J|Q|bk/br": {
+        "call": 0.0,
+        "fold": 1.0
+    },
+    "J|Q|bk/c": {
+        "check": 1.0,
+        "bet": 0.0
+    },
+    "J|Q|bk/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "J|Q|bk/cbr": {
+        "call": 0.0,
+        "fold": 1.0
+    },
+    "J|Q|brk/": {
+        "check": 1.0,
+        "bet": 0.0
+    },
+    "J|Q|brk/b": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "J|Q|brk/br": {
+        "call": 0.0,
+        "fold": 1.0
+    },
+    "J|Q|brk/c": {
+        "check": 1.0,
+        "bet": 0.0
+    },
+    "J|Q|brk/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "J|Q|brk/cbr": {
+        "call": 0.0,
+        "fold": 1.0
+    },
+    "J|Q|cbk/": {
+        "check": 1.0,
+        "bet": 0.0
+    },
+    "J|Q|cbk/b": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "J|Q|cbk/br": {
+        "call": 0.0,
+        "fold": 1.0
+    },
+    "J|Q|cbk/c": {
+        "check": 1.0,
+        "bet": 0.0
+    },
+    "J|Q|cbk/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "J|Q|cbk/cbr": {
+        "call": 0.0,
+        "fold": 1.0
+    },
+    "J|Q|cbrk/": {
+        "check": 1.0,
+        "bet": 0.0
+    },
+    "J|Q|cbrk/b": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "J|Q|cbrk/br": {
+        "call": 0.0,
+        "fold": 1.0
+    },
+    "J|Q|cbrk/c": {
+        "check": 1.0,
+        "bet": 0.0
+    },
+    "J|Q|cbrk/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "J|Q|cbrk/cbr": {
+        "call": 0.0,
+        "fold": 1.0
+    },
+    "J|Q|cc/": {
+        "check": 1.0,
+        "bet": 0.0
+    },
+    "J|Q|cc/b": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "J|Q|cc/br": {
+        "call": 0.0,
+        "fold": 1.0
+    },
+    "J|Q|cc/c": {
+        "check": 1.0,
+        "bet": 0.0
+    },
+    "J|Q|cc/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "J|Q|cc/cbr": {
+        "call": 0.0,
+        "fold": 1.0
+    },
+    "K|-|": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "K|-|b": {
+        "call": 1.0,
+        "fold": 0.0,
+        "raise": 0.0
+    },
+    "K|-|br": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "K|-|c": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "K|-|cb": {
+        "call": 1.0,
+        "fold": 0.0,
+        "raise": 0.0
+    },
+    "K|-|cbr": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "K|J|bk/": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "K|J|bk/b": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "K|J|bk/br": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "K|J|bk/c": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "K|J|bk/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "K|J|bk/cbr": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "K|J|brk/": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "K|J|brk/b": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "K|J|brk/br": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "K|J|brk/c": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "K|J|brk/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "K|J|brk/cbr": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "K|J|cbk/": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "K|J|cbk/b": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "K|J|cbk/br": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "K|J|cbk/c": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "K|J|cbk/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "K|J|cbk/cbr": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "K|J|cbrk/": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "K|J|cbrk/b": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "K|J|cbrk/br": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "K|J|cbrk/c": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "K|J|cbrk/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "K|J|cbrk/cbr": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "K|J|cc/": {
+        "check": 1.0,
+        "bet": 0.0
+    },
+    "K|J|cc/b": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "K|J|cc/br": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "K|J|cc/c": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "K|J|cc/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "K|J|cc/cbr": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "K|K|bk/": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "K|K|bk/b": {
+        "call": 1.0,
+        "fold": 0.0,
+        "raise": 0.0
+    },
+    "K|K|bk/br": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "K|K|bk/c": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "K|K|bk/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "K|K|bk/cbr": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "K|K|brk/": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "K|K|brk/b": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "K|K|brk/br": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "K|K|brk/c": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "K|K|brk/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "K|K|brk/cbr": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "K|K|cbk/": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "K|K|cbk/b": {
+        "call": 1.0,
+        "fold": 0.0,
+        "raise": 0.0
+    },
+    "K|K|cbk/br": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "K|K|cbk/c": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "K|K|cbk/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "K|K|cbk/cbr": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "K|K|cbrk/": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "K|K|cbrk/b": {
+        "call": 1.0,
+        "fold": 0.0,
+        "raise": 0.0
+    },
+    "K|K|cbrk/br": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "K|K|cbrk/c": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "K|K|cbrk/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "K|K|cbrk/cbr": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "K|K|cc/": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "K|K|cc/b": {
+        "call": 1.0,
+        "fold": 0.0,
+        "raise": 0.0
+    },
+    "K|K|cc/br": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "K|K|cc/c": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "K|K|cc/cb": {
+        "call": 1.0,
+        "fold": 0.0,
+        "raise": 0.0
+    },
+    "K|K|cc/cbr": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "K|Q|bk/": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "K|Q|bk/b": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "K|Q|bk/br": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "K|Q|bk/c": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "K|Q|bk/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "K|Q|bk/cbr": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "K|Q|brk/": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "K|Q|brk/b": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "K|Q|brk/br": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "K|Q|brk/c": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "K|Q|brk/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "K|Q|brk/cbr": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "K|Q|cbk/": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "K|Q|cbk/b": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "K|Q|cbk/br": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "K|Q|cbk/c": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "K|Q|cbk/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "K|Q|cbk/cbr": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "K|Q|cbrk/": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "K|Q|cbrk/b": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "K|Q|cbrk/br": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "K|Q|cbrk/c": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "K|Q|cbrk/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "K|Q|cbrk/cbr": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "K|Q|cc/": {
+        "check": 1.0,
+        "bet": 0.0
+    },
+    "K|Q|cc/b": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "K|Q|cc/br": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "K|Q|cc/c": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "K|Q|cc/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "K|Q|cc/cbr": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "Q|-|": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "Q|-|b": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "Q|-|br": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "Q|-|c": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "Q|-|cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "Q|-|cbr": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "Q|J|bk/": {
+        "check": 1.0,
+        "bet": 0.0
+    },
+    "Q|J|bk/b": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "Q|J|bk/br": {
+        "call": 0.0,
+        "fold": 1.0
+    },
+    "Q|J|bk/c": {
+        "check": 1.0,
+        "bet": 0.0
+    },
+    "Q|J|bk/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "Q|J|bk/cbr": {
+        "call": 0.0,
+        "fold": 1.0
+    },
+    "Q|J|brk/": {
+        "check": 1.0,
+        "bet": 0.0
+    },
+    "Q|J|brk/b": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "Q|J|brk/br": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "Q|J|brk/c": {
+        "check": 1.0,
+        "bet": 0.0
+    },
+    "Q|J|brk/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "Q|J|brk/cbr": {
+        "call": 0.0,
+        "fold": 1.0
+    },
+    "Q|J|cbk/": {
+        "check": 1.0,
+        "bet": 0.0
+    },
+    "Q|J|cbk/b": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "Q|J|cbk/br": {
+        "call": 0.0,
+        "fold": 1.0
+    },
+    "Q|J|cbk/c": {
+        "check": 1.0,
+        "bet": 0.0
+    },
+    "Q|J|cbk/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "Q|J|cbk/cbr": {
+        "call": 0.0,
+        "fold": 1.0
+    },
+    "Q|J|cbrk/": {
+        "check": 1.0,
+        "bet": 0.0
+    },
+    "Q|J|cbrk/b": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "Q|J|cbrk/br": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "Q|J|cbrk/c": {
+        "check": 1.0,
+        "bet": 0.0
+    },
+    "Q|J|cbrk/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "Q|J|cbrk/cbr": {
+        "call": 0.0,
+        "fold": 1.0
+    },
+    "Q|J|cc/": {
+        "check": 1.0,
+        "bet": 0.0
+    },
+    "Q|J|cc/b": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "Q|J|cc/br": {
+        "call": 0.0,
+        "fold": 1.0
+    },
+    "Q|J|cc/c": {
+        "check": 1.0,
+        "bet": 0.0
+    },
+    "Q|J|cc/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "Q|J|cc/cbr": {
+        "call": 0.0,
+        "fold": 1.0
+    },
+    "Q|K|bk/": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "Q|K|bk/b": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "Q|K|bk/br": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "Q|K|bk/c": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "Q|K|bk/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "Q|K|bk/cbr": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "Q|K|brk/": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "Q|K|brk/b": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "Q|K|brk/br": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "Q|K|brk/c": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "Q|K|brk/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "Q|K|brk/cbr": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "Q|K|cbk/": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "Q|K|cbk/b": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "Q|K|cbk/br": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "Q|K|cbk/c": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "Q|K|cbk/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "Q|K|cbk/cbr": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "Q|K|cbrk/": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "Q|K|cbrk/b": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "Q|K|cbrk/br": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "Q|K|cbrk/c": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "Q|K|cbrk/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "Q|K|cbrk/cbr": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "Q|K|cc/": {
+        "check": 1.0,
+        "bet": 0.0
+    },
+    "Q|K|cc/b": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "Q|K|cc/br": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "Q|K|cc/c": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "Q|K|cc/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "Q|K|cc/cbr": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "Q|Q|bk/": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "Q|Q|bk/b": {
+        "call": 1.0,
+        "fold": 0.0,
+        "raise": 0.0
+    },
+    "Q|Q|bk/br": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "Q|Q|bk/c": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "Q|Q|bk/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "Q|Q|bk/cbr": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "Q|Q|brk/": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "Q|Q|brk/b": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "Q|Q|brk/br": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "Q|Q|brk/c": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "Q|Q|brk/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "Q|Q|brk/cbr": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "Q|Q|cbk/": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "Q|Q|cbk/b": {
+        "call": 1.0,
+        "fold": 0.0,
+        "raise": 0.0
+    },
+    "Q|Q|cbk/br": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "Q|Q|cbk/c": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "Q|Q|cbk/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "Q|Q|cbk/cbr": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "Q|Q|cbrk/": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "Q|Q|cbrk/b": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "Q|Q|cbrk/br": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "Q|Q|cbrk/c": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "Q|Q|cbrk/cb": {
+        "call": 0.0,
+        "fold": 0.0,
+        "raise": 1.0
+    },
+    "Q|Q|cbrk/cbr": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "Q|Q|cc/": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "Q|Q|cc/b": {
+        "call": 1.0,
+        "fold": 0.0,
+        "raise": 0.0
+    },
+    "Q|Q|cc/br": {
+        "call": 1.0,
+        "fold": 0.0
+    },
+    "Q|Q|cc/c": {
+        "check": 0.0,
+        "bet": 1.0
+    },
+    "Q|Q|cc/cb": {
+        "call": 1.0,
+        "fold": 0.0,
+        "raise": 0.0
+    },
+    "Q|Q|cc/cbr": {
+        "call": 1.0,
+        "fold": 0.0
+    }
+}
