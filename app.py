@@ -234,9 +234,10 @@ def card_html(rank=None):
 # show the current cards, public card and pot
 def render_table(game, human_seat):
     opponent_seat = 1 - human_seat
-    opponent_card = (
-        game.cards[opponent_seat] if game.done else None
-    )
+
+    # reveal the opponent card only when the hand reaches showdown
+    showdown = game.done and not game.history.endswith("f")
+    opponent_card = game.cards[opponent_seat] if showdown else None
 
     public_card = (
         game.public_card
@@ -361,6 +362,27 @@ def play_page(game_name, policies):
     else:
         st.caption(f"History: {game.history or 'No actions'}")
 
+        # always display the action history before the player makes a decision
+    st.subheader("Hand action history")
+
+    with st.container(border=True):
+        if session["moves"]:
+            # highlight the most recent action made by the ai
+            ai_moves = [
+                move for move in session["moves"]
+                if move.startswith("AI ·")
+            ]
+
+            if ai_moves:
+                st.info(f"Latest AI move: {ai_moves[-1]}")
+
+            # show every action in chronological order
+            for move in session["moves"]:
+                st.write(move)
+
+        else:
+            st.caption("No actions taken yet.")
+
     if game.done:
         payoff = game.get_payoff()[human_seat]
 
@@ -400,22 +422,12 @@ def play_page(game_name, policies):
                     settle_hand(session, human_seat)
                     st.rerun()
 
-    # starting a new hand keeps the overall results and opponent settings
-    if st.button(
-        "Deal next hand" if game.done else "Deal new hand",
-        type="primary"
-    ):
+    # only allow a new hand once the current hand is complete
+    if game.done and st.button("Deal next hand", type="primary"):
         session["game"] = create_game(game_name)
         session["moves"] = []
         session["settled"] = False
         st.rerun()
-
-    with st.expander("Hand action history", expanded=False):
-        if session["moves"]:
-            for move in session["moves"]:
-                st.write(move)
-        else:
-            st.caption("No actions have been taken yet.")
 
     st.divider()
     st.subheader("Session performance")
