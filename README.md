@@ -1,4 +1,4 @@
-# Poker AI Research
+# Poker AI Sandbox
 
 Exploring game theory, reinforcement learning and decision making under uncertainty through poker.
 
